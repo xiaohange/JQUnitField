@@ -16,6 +16,7 @@
 		4715DC621ECDA01400B7A5F8 /* JQUnitFieldDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4715DC611ECDA01400B7A5F8 /* JQUnitFieldDemoTests.m */; };
 		4715DC6D1ECDA01400B7A5F8 /* JQUnitFieldDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4715DC6C1ECDA01400B7A5F8 /* JQUnitFieldDemoUITests.m */; };
 		4715DC7D1ECDA01E00B7A5F8 /* JQUnitField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4715DC7C1ECDA01E00B7A5F8 /* JQUnitField.m */; };
+		477C14F81ECE9B700065370C /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 477C14F71ECE9B700065370C /* MyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		4715DC6E1ECDA01400B7A5F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4715DC7B1ECDA01E00B7A5F8 /* JQUnitField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQUnitField.h; sourceTree = "<group>"; };
 		4715DC7C1ECDA01E00B7A5F8 /* JQUnitField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQUnitField.m; sourceTree = "<group>"; };
+		477C14F61ECE9B700065370C /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		477C14F71ECE9B700065370C /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 				4715DC4B1ECDA01400B7A5F8 /* AppDelegate.m */,
 				4715DC4D1ECDA01400B7A5F8 /* ViewController.h */,
 				4715DC4E1ECDA01400B7A5F8 /* ViewController.m */,
+				477C14F61ECE9B700065370C /* MyViewController.h */,
+				477C14F71ECE9B700065370C /* MyViewController.m */,
 				4715DC501ECDA01400B7A5F8 /* Main.storyboard */,
 				4715DC531ECDA01400B7A5F8 /* Assets.xcassets */,
 				4715DC551ECDA01400B7A5F8 /* LaunchScreen.storyboard */,
@@ -293,6 +298,7 @@
 				4715DC4C1ECDA01400B7A5F8 /* AppDelegate.m in Sources */,
 				4715DC491ECDA01400B7A5F8 /* main.m in Sources */,
 				4715DC7D1ECDA01E00B7A5F8 /* JQUnitField.m in Sources */,
+				477C14F81ECE9B700065370C /* MyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -532,6 +538,7 @@
 				4715DC731ECDA01400B7A5F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4715DC741ECDA01400B7A5F8 /* Build configuration list for PBXNativeTarget "JQUnitFieldDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +547,7 @@
 				4715DC761ECDA01400B7A5F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4715DC771ECDA01400B7A5F8 /* Build configuration list for PBXNativeTarget "JQUnitFieldDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -548,6 +556,7 @@
 				4715DC791ECDA01400B7A5F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

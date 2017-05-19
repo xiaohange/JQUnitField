@@ -42,7 +42,7 @@ IB_DESIGNABLE
 /** 目前允许的输入单元个数区间控制在 1 ~ 9 个,超过该范围都将被忽略。 */
 @property (nonatomic, assign) IBInspectable NSUInteger inputUnitCount;
 #else
-@property (nonatomic, assign, readonly) NSUInteger inputUnitCount;
+@property (nonatomic, assign) NSUInteger inputUnitCount;
 #endif
 
 #if TARGET_INTERFACE_BUILDER
