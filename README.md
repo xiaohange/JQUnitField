@@ -2,6 +2,7 @@
 JQUnitField：验证码输入框，自定义密码输入框，支持密文，支持框颜色，间隔，文本设置，闪烁光标移动，自定义键盘响应！只需要一个view就能实现哦！
 ### 效果如下
 ![](https://github.com/xiaohange/JQUnitField/blob/master/demo.gif?raw=true)
+![](https://github.com/xiaohange/JQUnitField/blob/master/demo2.gif?raw=true)
 ## Instalation
 
 Add the JQUnitField.h and JQUnitField.m source files to your project.
