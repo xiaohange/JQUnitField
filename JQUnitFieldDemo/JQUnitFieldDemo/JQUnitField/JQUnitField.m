@@ -535,6 +535,10 @@
     return UIKeyboardTypeNumberPad;
 }
 
+- (UITextAutocorrectionType)autocorrectionType {
+    return UITextAutocorrectionTypeNo;
+}
+
 - (UIReturnKeyType)returnKeyType {
     return _defaultReturnKeyType;
 }
